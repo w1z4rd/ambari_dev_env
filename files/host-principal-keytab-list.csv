@@ -1,0 +1,48 @@
+c6401.ambari.apache.org,Ambari Smoke Test User,ambari-qa@EXAMPLE.COM,smokeuser.headless.keytab,/etc/security/keytabs,ambari-qa,hadoop,440
+c6401.ambari.apache.org,HDFS User,hdfs@EXAMPLE.COM,hdfs.headless.keytab,/etc/security/keytabs,hdfs,hadoop,440
+c6401.ambari.apache.org,HBase User,hbase@EXAMPLE.COM,hbase.headless.keytab,/etc/security/keytabs,hbase,hadoop,440
+c6401.ambari.apache.org,HDFS SPNEGO User,HTTP/c6401.ambari.apache.org@EXAMPLE.COM,spnego.service.keytab,/etc/security/keytabs,root,hadoop,440
+c6401.ambari.apache.org,HBase Master,hbase/c6401.ambari.apache.org@EXAMPLE.COM,hbase.service.keytab,/etc/security/keytabs,hbase,hadoop,400
+c6401.ambari.apache.org,Knox Gateway,knox/c6401.ambari.apache.org@EXAMPLE.COM,knox.service.keytab,/etc/security/keytabs,knox,hadoop,400
+c6401.ambari.apache.org,NameNode,nn/c6401.ambari.apache.org@EXAMPLE.COM,nn.service.keytab,/etc/security/keytabs,hdfs,hadoop,400
+c6401.ambari.apache.org,ZooKeeper Server,zookeeper/c6401.ambari.apache.org@EXAMPLE.COM,zk.service.keytab,/etc/security/keytabs,zookeeper,hadoop,400
+
+==
+
+c6402.ambari.apache.org,Ambari Smoke Test User,ambari-qa@EXAMPLE.COM,smokeuser.headless.keytab,/etc/security/keytabs,ambari-qa,hadoop,440
+c6402.ambari.apache.org,HDFS User,hdfs@EXAMPLE.COM,hdfs.headless.keytab,/etc/security/keytabs,hdfs,hadoop,440
+c6402.ambari.apache.org,HBase User,hbase@EXAMPLE.COM,hbase.headless.keytab,/etc/security/keytabs,hbase,hadoop,440
+
+c6402.ambari.apache.org,HDFS SPNEGO User,HTTP/c6402.ambari.apache.org@EXAMPLE.COM,spnego.service.keytab,/etc/security/keytabs,root,hadoop,440
+c6402.ambari.apache.org,WebHCat SPNEGO User,HTTP/c6402.ambari.apache.org@EXAMPLE.COM,spnego.service.keytab,/etc/security/keytabs,root,hadoop,440
+c6402.ambari.apache.org,Hive SPNEGO User,HTTP/c6402.ambari.apache.org@EXAMPLE.COM,spnego.service.keytab,/etc/security/keytabs,root,hadoop,440
+c6402.ambari.apache.org,Falcon SPNEGO User,HTTP/c6402.ambari.apache.org@EXAMPLE.COM,spnego.service.keytab,/etc/security/keytabs,root,hadoop,440
+c6402.ambari.apache.org,History server SPNEGO User,HTTP/c6402.ambari.apache.org@EXAMPLE.COM,spnego.service.keytab,/etc/security/keytabs,root,hadoop,440
+c6402.ambari.apache.org,ResourceManager SPNEGO User,HTTP/c6402.ambari.apache.org@EXAMPLE.COM,spnego.service.keytab,/etc/security/keytabs,root,hadoop,440
+c6402.ambari.apache.org,YARN ATS HTTP User,HTTP/c6402.ambari.apache.org@EXAMPLE.COM,spnego.service.keytab,/etc/security/keytabs,root,hadoop,440
+c6402.ambari.apache.org,Storm UI Server,HTTP/c6402.ambari.apache.org@EXAMPLE.COM,spnego.service.keytab,/etc/security/keytabs,root,hadoop,440
+c6402.ambari.apache.org,App Timeline Server,yarn/c6402.ambari.apache.org@EXAMPLE.COM,yarn.service.keytab,/etc/security/keytabs,yarn,hadoop,400
+c6402.ambari.apache.org,DRPC Server,nimbus/c6402.ambari.apache.org@EXAMPLE.COM,nimbus.service.keytab,/etc/security/keytabs,storm,hadoop,400
+c6402.ambari.apache.org,Falcon Server,falcon/c6402.ambari.apache.org@EXAMPLE.COM,falcon.service.keytab,/etc/security/keytabs,falcon,hadoop,400
+c6402.ambari.apache.org,History Server,jhs/c6402.ambari.apache.org@EXAMPLE.COM,jhs.service.keytab,/etc/security/keytabs,mapred,hadoop,400
+c6402.ambari.apache.org,Hive Metastore and HiveServer2,hive/c6402.ambari.apache.org@EXAMPLE.COM,hive.service.keytab,/etc/security/keytabs,hive,hadoop,400
+c6402.ambari.apache.org,Nagios Server,nagios/c6402.ambari.apache.org@EXAMPLE.COM,nagios.service.keytab,/etc/security/keytabs,nagios,hadoop,400
+c6402.ambari.apache.org,ResourceManager,rm/c6402.ambari.apache.org@EXAMPLE.COM,rm.service.keytab,/etc/security/keytabs,yarn,hadoop,400
+c6402.ambari.apache.org,SNameNode,nn/c6402.ambari.apache.org@EXAMPLE.COM,nn.service.keytab,/etc/security/keytabs,hdfs,hadoop,400
+c6402.ambari.apache.org,Storm UI Server,storm@EXAMPLE.COM,storm.service.keytab,/etc/security/keytabs,storm,hadoop,400
+c6402.ambari.apache.org,ZooKeeper Server,zookeeper/c6402.ambari.apache.org@EXAMPLE.COM,zk.service.keytab,/etc/security/keytabs,zookeeper,hadoop,400
+
+==
+
+c6403.ambari.apache.org,Ambari Smoke Test User,ambari-qa@EXAMPLE.COM,smokeuser.headless.keytab,/etc/security/keytabs,ambari-qa,hadoop,440
+c6403.ambari.apache.org,HDFS User,hdfs@EXAMPLE.COM,hdfs.headless.keytab,/etc/security/keytabs,hdfs,hadoop,440
+c6403.ambari.apache.org,HBase User,hbase@EXAMPLE.COM,hbase.headless.keytab,/etc/security/keytabs,hbase,hadoop,440
+
+c6403.ambari.apache.org,Oozie SPNEGO User,HTTP/c6403.ambari.apache.org@EXAMPLE.COM,spnego.service.keytab,/etc/security/keytabs,root,hadoop,440
+c6403.ambari.apache.org,NodeManager SPNEGO User,HTTP/c6403.ambari.apache.org@EXAMPLE.COM,spnego.service.keytab,/etc/security/keytabs,root,hadoop,440
+c6403.ambari.apache.org,DataNode,dn/c6403.ambari.apache.org@EXAMPLE.COM,dn.service.keytab,/etc/security/keytabs,hdfs,hadoop,400
+c6403.ambari.apache.org,RegionServer,hbase/c6403.ambari.apache.org@EXAMPLE.COM,hbase.service.keytab,/etc/security/keytabs,hbase,hadoop,400
+c6403.ambari.apache.org,NodeManager,nm/c6403.ambari.apache.org@EXAMPLE.COM,nm.service.keytab,/etc/security/keytabs,yarn,hadoop,400
+c6403.ambari.apache.org,Oozie Server,oozie/c6403.ambari.apache.org@EXAMPLE.COM,oozie.service.keytab,/etc/security/keytabs,oozie,hadoop,400
+c6403.ambari.apache.org,Supervisor,storm@EXAMPLE.COM,storm.service.keytab,/etc/security/keytabs,storm,hadoop,400
+c6403.ambari.apache.org,ZooKeeper Server,zookeeper/c6403.ambari.apache.org@EXAMPLE.COM,zk.service.keytab,/etc/security/keytabs,zookeeper,hadoop,400

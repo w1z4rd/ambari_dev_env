@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "mapred-env": {
+                "properties": {
+                    "mapreduce_log_dir_prefix": "/grid/0/log/hadoop-mapreduce"
+                }
+            },
+            "mapred-site": {
+                "properties": {
+                    "install-test-mapred-site": "install-test-mapred-site-VALUE"
+                }
+            },
+            "yarn-env": {
+                "properties": {
+                    "yarn_log_dir_prefix": "/grid/0/log/hadoop"
+                }
+            }
+        }
+    ]
+}
