@@ -27,6 +27,7 @@ sudo echo 'MAVEN_OPTS="-Xms1024m -Xmx4096m -XX:PermSize=1024m"' >> /etc/environm
 wget https://pypi.python.org/packages/2.7/s/setuptools/setuptools-0.6c11-py2.7.egg#md5=fe1f997bc722265116870bc7919059ea -O /tmp/setuptools-0.6c11-py2.7.egg
 sudo sh /tmp/setuptools-0.6c11-py2.7.egg
 sudo apt-get install -y python-dev
+#TODO install python setuptools
 # g++
 sudo apt-get install -y g++
 # rpm
