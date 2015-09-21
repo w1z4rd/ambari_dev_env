@@ -29,39 +29,39 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.define :c6401 do |c6401|
     # uncomment the line below to set up the ambari dev environment
     # c6401.vm.provision :shell, :path => "dev-bootstrap.sh"
-    c6401.vm.provision "file", source: "/home/costelradulescu/work/horton-works/files/mysql-connector-java-5.1.34-bin.jar", destination: "/home/vagrant/mysql-connector-java-5.1.34-bin.jar"
-    c6401.vm.provision :shell, :path => "/home/costelradulescu/work/horton-works/scripts/centos/setup_server_trunk.sh"
-    c6401.vm.provision :shell, :path => "/home/costelradulescu/work/horton-works/scripts/centos/setup_node_trunk.sh"
-    c6401.vm.provision :shell, :path => "/home/costelradulescu/work/horton-works/scripts/centos/install_kdc.sh"
-    c6401.vm.provision :shell, :path => "/home/costelradulescu/work/horton-works/scripts/centos/install_mysql_server.sh"
+    c6401.vm.provision "file", source: "/home/costa/coding/ambari_dev_env/files/mysql-connector-java-5.1.34-bin.jar", destination: "/home/vagrant/mysql-connector-java-5.1.34-bin.jar"
+    c6401.vm.provision :shell, :path => "/home/costa/coding/ambari_dev_env/vagrant_scripts/centos/setup_server_trunk.sh"
+    c6401.vm.provision :shell, :path => "/home/costa/coding/ambari_dev_env/vagrant_scripts/centos/setup_node_trunk.sh"
+    c6401.vm.provision :shell, :path => "/home/costa/coding/ambari_dev_env/vagrant_scripts/centos/install_kdc.sh"
+    c6401.vm.provision :shell, :path => "/home/costa/coding/ambari_dev_env/vagrant_scripts/centos/install_mysql_server.sh"
     c6401.vm.hostname = "c6401.ambari.apache.org"
     c6401.vm.network :private_network, ip: "192.168.64.101"
   end
 
   config.vm.define :c6402 do |c6402|
-   # c6402.vm.provision "file", source: "/home/costelradulescu/work/horton-works/files/mysql-connector-java-5.1.34-bin.jar", destination: "/home/vagrant/mysql-connector-java-5.1.34-bin.jar"
-   # c6402.vm.provision :shell, :path => "/home/costelradulescu/work/horton-works/scripts/centos/setup_server_trunk.sh"
-   # c6402.vm.provision :shell, :path => "/home/costelradulescu/work/horton-works/scripts/centos/setup_node_trunk.sh"
-   # c6402.vm.provision :shell, :path => "/home/costelradulescu/work/horton-works/scripts/centos/install_kdc.sh"
-   # c6402.vm.provision :shell, :path => "/home/costelradulescu/work/horton-works/scripts/centos/install_mysql_server.sh"
-   # c6402.vm.provision :shell, :path => "/home/costelradulescu/work/horton-works/scripts/centos/setup_node_trunk.sh"
+   # c6402.vm.provision "file", source: "/home/costa/coding/ambari_dev_env/files/mysql-connector-java-5.1.34-bin.jar", destination: "/home/vagrant/mysql-connector-java-5.1.34-bin.jar"
+   # c6402.vm.provision :shell, :path => "/home/costa/coding/ambari_dev_env/vagrant_scripts/centos/setup_server_trunk.sh"
+   # c6402.vm.provision :shell, :path => "/home/costa/coding/ambari_dev_env/vagrant_scripts/centos/setup_node_trunk.sh"
+   # c6402.vm.provision :shell, :path => "/home/costa/coding/ambari_dev_env/vagrant_scripts/centos/install_kdc.sh"
+   # c6402.vm.provision :shell, :path => "/home/costa/coding/ambari_dev_env/vagrant_scripts/centos/install_mysql_server.sh"
+   # c6402.vm.provision :shell, :path => "/home/costa/coding/ambari_dev_env/vagrant_scripts/centos/setup_node_trunk.sh"
     c6402.vm.hostname = "c6402.ambari.apache.org"
     c6402.vm.network :private_network, ip: "192.168.64.102"
   end
 
   config.vm.define :c6403 do |c6403|
-    c6403.vm.provision "file", source: "/home/costelradulescu/work/horton-works/files/mysql-connector-java-5.1.34-bin.jar", destination: "/home/vagrant/mysql-connector-java-5.1.34-bin.jar"
-    c6403.vm.provision :shell, :path => "/home/costelradulescu/work/horton-works/scripts/centos/setup_server_trunk.sh"
-    c6403.vm.provision :shell, :path => "/home/costelradulescu/work/horton-works/scripts/centos/setup_node_trunk.sh"
-    c6403.vm.provision :shell, :path => "/home/costelradulescu/work/horton-works/scripts/centos/install_kdc.sh"
-    c6403.vm.provision :shell, :path => "/home/costelradulescu/work/horton-works/scripts/centos/install_mysql_server.sh"
+    c6403.vm.provision "file", source: "/home/costa/coding/ambari_dev_env/files/mysql-connector-java-5.1.34-bin.jar", destination: "/home/vagrant/mysql-connector-java-5.1.34-bin.jar"
+    c6403.vm.provision :shell, :path => "/home/costa/coding/ambari_dev_env/vagrant_scripts/centos/setup_server_trunk.sh"
+    c6403.vm.provision :shell, :path => "/home/costa/coding/ambari_dev_env/vagrant_scripts/centos/setup_node_trunk.sh"
+    c6403.vm.provision :shell, :path => "/home/costa/coding/ambari_dev_env/vagrant_scripts/centos/install_kdc.sh"
+    c6403.vm.provision :shell, :path => "/home/costa/coding/ambari_dev_env/vagrant_scripts/centos/install_mysql_server.sh"
     c6403.vm.hostname = "c6403.ambari.apache.org"
     c6403.vm.network :private_network, ip: "192.168.64.103"
   end
 
   config.vm.define :c6404 do |c6404|
-    c6404.vm.provision "file", source: "/home/costelradulescu/work/horton-works/files/httpd.conf", destination: "/home/vagrant/httpd.conf"
-    c6404.vm.provision :shell, :path => "/home/costelradulescu/work/horton-works/scripts/centos/install_web_server.sh"
+    c6404.vm.provision "file", source: "/home/costa/coding/ambari_dev_env/files/httpd.conf", destination: "/home/vagrant/httpd.conf"
+    c6404.vm.provision :shell, :path => "/home/costa/coding/ambari_dev_env/vagrant_scripts/centos/install_web_server.sh"
     c6404.vm.hostname = "c6404.ambari.apache.org"
     c6404.vm.network :private_network, ip: "192.168.64.104"
   end
