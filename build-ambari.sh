@@ -17,11 +17,3 @@ mvn versions:set -DnewVersion=$1
 mvn clean install package -Dbuild-rpm -DskipTests
 cd ..
 mvn -B clean install package rpm:rpm -DnewVersion=$1 -DskipTests -Dpython.ver="python >= 2.6" -Preplaceurl
-rm -rf /opt/ambari-vagrant/centos6.4/ambari
-mkdir /opt/ambari-vagrant/centos6.4/ambari
-for file in `find . -name "*.rpm"`; do
-  cp -v $file /opt/ambari-vagrant/centos6.4/ambari
-done
-cd /opt/ambari-vagrant/centos6.4/
-vagrant destroy -f
-vagrant up c6401
