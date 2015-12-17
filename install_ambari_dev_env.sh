@@ -14,7 +14,7 @@ sudo apt-get update
 sudo apt-get install -y oracle-java7-installer
 echo oracle-java7-installer shared/accepted-oracle-license-v1-1 select true | sudo /usr/bin/debconf-set-selections
 # maven 3.0.5
-sudo wget ftp://mirror.reverse.net/pub/apache/maven/maven-3/3.0.5/binaries/apache-maven-3.0.5-bin.tar.gz -O /tmp/apache-maven-3.0.5-bin.tar.gz
+sudo wget http://mirror.reverse.net/pub/apache/maven/maven-3/3.0.5/binaries/apache-maven-3.0.5-bin.tar.gz -O /tmp/apache-maven-3.0.5-bin.tar.gz
 cd /tmp
 sudo tar -xvzf /tmp/apache-maven-3.0.5-bin.tar.gz
 sudo mv /tmp/apache-maven-3.0.5 /usr/local/
