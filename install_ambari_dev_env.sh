@@ -43,6 +43,8 @@ sudo update-alternatives --install /usr/bin/npm npm /usr/local/node-v0.10.31-lin
 sudo mkdir -p /usr/lib/node_modules
 sudo chown $user_group -R /usr/lib/node_modules
 sudo npm install -q brunch@1.7.17
+# VirtualBox
+sudo apt-get install -y VirtualBox
+# vagrant
+sudo apt-get install -y vagrant
 cd $dir
-#TODO: install vagrant
-#TODO: install VirtualBox
