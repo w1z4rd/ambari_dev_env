@@ -45,6 +45,7 @@ sudo chown $user_group -R /usr/lib/node_modules
 sudo npm install -q brunch@1.7.17
 # VirtualBox
 sudo apt-get install -y VirtualBox
+sudo apt-get install -y virtualbox-dkms
 # vagrant
 sudo apt-get install -y vagrant
 cd $dir
