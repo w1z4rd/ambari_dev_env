@@ -39,6 +39,7 @@ tar -xzf /tmp/node-v0.10.31-linux-x64.tar.gz
 sudo mv /tmp/node-v0.10.31-linux-x64 /usr/local/
 sudo update-alternatives --install /usr/bin/node node /usr/local/node-v0.10.31-linux-x64/bin/node 1
 sudo update-alternatives --install /usr/bin/npm npm /usr/local/node-v0.10.31-linux-x64/bin/npm 1
+# brunch
 sudo mkdir -p /usr/lib/node_modules
 sudo chown $user_group -R /usr/lib/node_modules
 sudo npm install -q brunch@1.7.17
